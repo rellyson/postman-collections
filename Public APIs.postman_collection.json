@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "9beb293a-2db1-4f46-8312-c0257daaf5e8",
+		"name": "Public APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Randomly say Yes or No",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://yesno.wtf/api",
+					"protocol": "https",
+					"host": [
+						"yesno",
+						"wtf"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BrasilAPI - List banks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://brasilapi.com.br/api/banks/v1",
+					"protocol": "https",
+					"host": [
+						"brasilapi",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"banks",
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BrasilAPI - Get CNPJ Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://brasilapi.com.br/api/cnpj/v1/19131243000197",
+					"protocol": "https",
+					"host": [
+						"brasilapi",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"cnpj",
+						"v1",
+						"19131243000197"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BrasilAPI - List Holidays by Year Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://brasilapi.com.br/api/feriados/v1/2022",
+					"protocol": "https",
+					"host": [
+						"brasilapi",
+						"com",
+						"br"
+					],
+					"path": [
+						"api",
+						"feriados",
+						"v1",
+						"2022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GOT - Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.anapioficeandfire.com/api/books",
+					"protocol": "https",
+					"host": [
+						"www",
+						"anapioficeandfire",
+						"com"
+					],
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GOT - Characters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.anapioficeandfire.com/api/characters",
+					"protocol": "https",
+					"host": [
+						"www",
+						"anapioficeandfire",
+						"com"
+					],
+					"path": [
+						"api",
+						"characters"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GOT - Houses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.anapioficeandfire.com/api/houses",
+					"protocol": "https",
+					"host": [
+						"www",
+						"anapioficeandfire",
+						"com"
+					],
+					"path": [
+						"api",
+						"houses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valorant - List agents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://valorant-api.com/v1/agents?language=pt-BR",
+					"protocol": "https",
+					"host": [
+						"valorant-api",
+						"com"
+					],
+					"path": [
+						"v1",
+						"agents"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "pt-BR"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valorant - List weapons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://valorant-api.com/v1/maps?language=pt-BR",
+					"protocol": "https",
+					"host": [
+						"valorant-api",
+						"com"
+					],
+					"path": [
+						"v1",
+						"maps"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "pt-BR"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valorant - List weapons Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://valorant-api.com/v1/weapons?language=pt-BR",
+					"protocol": "https",
+					"host": [
+						"valorant-api",
+						"com"
+					],
+					"path": [
+						"v1",
+						"weapons"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "pt-BR"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lyrics.ovh - Find Lyrics by Artist and Title",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.lyrics.ovh/v1/imagine Dragons/Enemy",
+					"protocol": "https",
+					"host": [
+						"api",
+						"lyrics",
+						"ovh"
+					],
+					"path": [
+						"v1",
+						"imagine Dragons",
+						"Enemy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Joke API - Tell a joke",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://v2.jokeapi.dev/joke/Programming,Miscellaneous?blacklistFlags=racist,sexist",
+					"protocol": "https",
+					"host": [
+						"v2",
+						"jokeapi",
+						"dev"
+					],
+					"path": [
+						"joke",
+						"Programming,Miscellaneous"
+					],
+					"query": [
+						{
+							"key": "blacklistFlags",
+							"value": "racist,sexist"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
