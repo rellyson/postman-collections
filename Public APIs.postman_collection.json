@@ -182,7 +182,7 @@
 			"response": []
 		},
 		{
-			"name": "Valorant - List weapons",
+			"name": "Valorant - List maps",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -208,7 +208,7 @@
 			"response": []
 		},
 		{
-			"name": "Valorant - List weapons Copy",
+			"name": "Valorant - List weapons",
 			"request": {
 				"method": "GET",
 				"header": [],
